@@ -1,0 +1,45 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contacto</title>
+  <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+
+  <section id="informacion-contacto">
+    <h2>Información de Contacto</h2>
+    <p>¡Estamos encantados de ayudarte! Aquí tienes nuestra información de contacto:</p>
+    
+    <ul>
+      <li>Teléfono: <a href="tel:+123456789">+34 611493404</a></li>
+      <li>Email: <a href="mailto:info@empresa.com">cocheslujo@empresa.com</a></li>
+      <li>Dirección: C/San Enrique de Ossó, Madrid, España</li>
+    </ul>
+  </section>
+  
+  <section id="formulario-contacto">
+    <h2>Formulario de Contacto</h2>
+    
+    <form action="enviar.php" method="POST">
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required>
+      
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      
+      <label for="mensaje">Mensaje:</label>
+      <textarea id="mensaje" name="mensaje" required></textarea>
+      
+      <input type="submit" value="Enviar">
+    </form>
+  </section>
+  
+  <footer>
+    <p>&copy; Web de coches, 2023 - Todos los derechos reservados </p>
+    <p class="copy">Web por Marina Barreda Albert.</p>
+</footer>
+</body>
+</html>
